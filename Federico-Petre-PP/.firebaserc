@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "labo-iv-pp": {
+      "hosting": {
+        "Federico-Petre-PP": [
+          "labo-iv-pp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "labo-iv-pp"
+  }
+}

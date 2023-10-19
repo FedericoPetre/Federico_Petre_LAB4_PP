@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "Federico-Petre-PP",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
