@@ -17,6 +17,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormularioAltaProductoComponent } from './componentes/formulario-alta-producto/formulario-alta-producto.component';
 import { ListadoPaisesComponent } from './componentes/listado-paises/listado-paises.component';
 import { AltaProductoComponent } from './componentes/alta-producto/alta-producto.component';
+import { DetalleCompletoProductoPaisComponent } from './componentes/detalle-completo-producto-pais/detalle-completo-producto-pais.component';
+import { DetallePaisComponent } from './componentes/detalle-pais/detalle-pais.component';
+import { DetalleProductoComponent } from './componentes/detalle-producto/detalle-producto.component';
+import { ListadoProductosComponent } from './componentes/listado-productos/listado-productos.component';
+import { ProductosListadoPublicoComponent } from './componentes/productos-listado-publico/productos-listado-publico.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +30,12 @@ import { AltaProductoComponent } from './componentes/alta-producto/alta-producto
     BienvenidaComponent,
     FormularioAltaProductoComponent,
     ListadoPaisesComponent,
-    AltaProductoComponent
+    AltaProductoComponent,
+    DetalleCompletoProductoPaisComponent,
+    DetallePaisComponent,
+    DetalleProductoComponent,
+    ListadoProductosComponent,
+    ProductosListadoPublicoComponent
   ],
   imports: [
     BrowserModule,
